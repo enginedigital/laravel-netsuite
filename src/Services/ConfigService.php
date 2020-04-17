@@ -57,7 +57,7 @@ class ConfigService
             $envConfig['host'] = 'https://'.$envConfig['account'].'.restlets.api.netsuite.com'.'/app/site/hosting/restlet.nl';
         }
         // Remove other hosts before returning, in case of future clashes
-        unset($envConfig['host_restlet'], $envConfig['host_webservices']);
+        unset($envConfig['host_restlet'], $envConfig['host_webservices'], $envConfig['password']);
         return $envConfig;
     }
 
