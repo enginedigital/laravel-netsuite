@@ -113,7 +113,7 @@ class RestletService
      */
     public function setMethod($method)
     {
-        $this->method = $method;
+        $this->method = strtoupper($method);
     }
 
     /**
@@ -238,7 +238,7 @@ class RestletService
     public function callWithToken()
     {
         $RESTlet = $this->arrConfig['host'].'?script='.$this->getStrScriptId().'&deploy=1&realm='.$this->getArrConfig()['account'];
-        $this->oauth = new Oauth($this->getArrConfig(), $this->getStrScriptId(), $this->getMethod());
+        $this->oauth = new Oauth($this->getArrConfig(), $this->getStrScriptId(), $this->getMethod(), $this->getArrData());
         $tokenHeaders = [
             'Content-Type' => 'application/json',
             'Authorization' => $this->oauth->getOauthHeader()
