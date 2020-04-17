@@ -1,5 +1,5 @@
 {
-  "name": "usulix/laravel-netsuite",
+  "name": "enginedigital/laravel-netsuite",
   "description": "A laravel5 wrapper around ryanwinchester/netsuite-php",
   "require": {
         "laravel/framework": "^5",
@@ -14,15 +14,15 @@
   },
   "autoload": {
       "psr-4": {
-          "Usulix\\NetSuite\\": "src"
+          "EngineDigital\\NetSuite\\": "src"
       }
   },
   "license": "MIT",
   "extra": {
       "laravel": {
           "providers": [
-              "Usulix\\NetSuite\\Providers\\NetSuiteServiceProvider",
-              "Usulix\\NetSuite\\Providers\\NetSuiteApiProvider"
+              "EngineDigital\\NetSuite\\Providers\\NetSuiteServiceProvider",
+              "EngineDigital\\NetSuite\\Providers\\NetSuiteApiProvider"
           ]
       }
   }
