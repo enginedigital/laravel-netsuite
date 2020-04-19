@@ -1,4 +1,4 @@
-# usulix/laravel-netsuite
+# EngineDigital/laravel-netsuite
 
 [ryanwinchester/netsuite-php](https://github.com/ryanwinchester/netsuite-php) is a php package which
 wraps the [NetSuite PHP Toolkit](http://www.netsuite.com/portal/developers/resources/suitetalk-sample-applications.shtml)
@@ -12,7 +12,7 @@ API for targeting NetSuite RESTlets
 Will use the latest `ryanwinchester/netsuite-php` version up to `v2018.2.0`
 
 ```
-    composer require usulix/laravel-netsuite
+    composer require EngineDigital/laravel-netsuite
 ```
 if an older version say `v2017.1.1` or `v2016.2.0` is required
  ```
@@ -31,8 +31,8 @@ Register the package
    /*
    * Laravel Framework Service Providers...
 
-   Usulix\NetSuite\Providers\NetSuiteServiceProvider::class,
-   Usulix\NetSuite\Providers\NetSuiteApiProvider::class,
+   EngineDigital\NetSuite\Providers\NetSuiteServiceProvider::class,
+   EngineDigital\NetSuite\Providers\NetSuiteApiProvider::class,
 ```
 
 NetSuiteServiceProvider - provides access to the ryanwinchester/netsuite-php WebServices

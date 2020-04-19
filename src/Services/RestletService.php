@@ -1,9 +1,9 @@
 <?php
 
-namespace Usulix\NetSuite\Services;
+namespace EngineDigital\NetSuite\Services;
 
 use GuzzleHttp\Client;
-use Usulix\NetSuite\Models\Oauth;
+use EngineDigital\NetSuite\Models\Oauth;
 
 class RestletService
 {

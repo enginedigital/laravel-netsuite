@@ -1,6 +1,6 @@
 <?php
 
-namespace Usulix\NetSuite\Services;
+namespace EngineDigital\NetSuite\Services;
 
 class ConfigService
 {

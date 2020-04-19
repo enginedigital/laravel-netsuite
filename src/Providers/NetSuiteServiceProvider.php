@@ -1,10 +1,10 @@
 <?php
 
-namespace Usulix\NetSuite\Providers;
+namespace EngineDigital\NetSuite\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use NetSuite\NetSuiteService;
-use Usulix\NetSuite\Services\ConfigService;
+use EngineDigital\NetSuite\Services\ConfigService;
 
 class NetSuiteServiceProvider extends ServiceProvider
 {

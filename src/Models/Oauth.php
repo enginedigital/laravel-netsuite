@@ -1,4 +1,4 @@
-<?php namespace Usulix\NetSuite\Models;
+<?php namespace EngineDigital\NetSuite\Models;
 
 class Oauth
 {

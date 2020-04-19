@@ -1,10 +1,10 @@
 <?php
 
-namespace Usulix\NetSuite\Providers;
+namespace EngineDigital\NetSuite\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Usulix\NetSuite\Services\ConfigService;
-use Usulix\NetSuite\Services\RestletService;
+use EngineDigital\NetSuite\Services\ConfigService;
+use EngineDigital\NetSuite\Services\RestletService;
 
 class NetSuiteApiProvider extends ServiceProvider
 {
